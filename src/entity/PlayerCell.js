@@ -1,6 +1,6 @@
 var Cell = require('./Cell');
 
-function PlayerCell() {
+function PlayerCell() {200
     Cell.apply(this, Array.prototype.slice.call(arguments));
 
     this.cellType = 0;
